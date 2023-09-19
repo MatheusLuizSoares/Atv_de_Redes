@@ -1,7 +1,10 @@
 
 raio=float(input("Informe o raio do cílindro:"))
-altura=float(input("Altura do cílindro:"))
-pi=3.14
+if raio>0:
+
+ altura=float(input("Altura do cílindro:"))
+ if altura>0:
+  pi=3.14
 
 Area_lateral=float( 2*pi*raio*altura)
 
