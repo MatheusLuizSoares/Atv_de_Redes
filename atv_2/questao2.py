@@ -1,4 +1,5 @@
 
+
 n = int(input("Digte  um número: "))
 res = 1
 
