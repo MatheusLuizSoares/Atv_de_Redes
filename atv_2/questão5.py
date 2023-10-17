@@ -1,13 +1,13 @@
-n=int(input("Digite algum número positivo "))
+n = int(input("Digite algum número positivo: "))
 
-while n/2 and n/3:
-     print("os seu dvisores são ", end="") 
+divisor = 2  
 
-     if n%2 :
-          print("Ele não é número primo")
-     elif n%3==0:
-           print("Ele não é número primo")
-     
-     else:
-          print("Ele é número primo")
+while divisor <= n:
+    if n % divisor == 0:
+        print(f"{divisor} é divisor de {n}")
+    divisor += 1
 
+if divisor == n + 1:
+    print(f"{n} é um número primo.")
+else:
+    print(f"{n} não é um número primo.")
